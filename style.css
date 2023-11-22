@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    background: linear-gradient(135deg, #00feba , #5b548a);
+    border-radius: 20px;  
+}
+@media screen and (max-width: 450px){
+    .card{
+
+        width: 300px;
+    }
+}
+@media screen and (max-width: 320px){
+    .card{
+
+        width: 250px;
+    }
+}
+.city{
+    text-align: center;
+}
+.search{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+    
+}
+.search input{
+    height: 60px;
+    width: 70%;
+    font-size: 25px;
+    border-radius: 50px;
+    padding-left: 10px;
+    border: none;
+}
+.search button img{
+    height: 40px;
+    width: 35px;
+}
+.search button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+.col p{
+    color: white;
+    font-size: 20px;
+    margin-top: 4px;
+    text-align: center;
+}
+.col img{
+    width: 70px;
+   height: 60px;
+   margin: 10px 0;
+}
+
+.wheatherIcon{
+   display: flex;
+   justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(10px);
+  }
