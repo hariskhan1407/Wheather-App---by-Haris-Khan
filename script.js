@@ -19,7 +19,7 @@ function cheakWheather(city){
         document.querySelector(".city").innerHTML = "Kuch to Sharm Karo😂"
         document.querySelector(".humidity").innerHTML = '0 km/h'
         document.querySelector(".windspeed").innerHTML = '0 km/h'
-        document.querySelector(".temp").innerHTML = 'Aabey Saale'
+        document.querySelector(".temp").innerHTML = 'Areeee!'
 
     })
 
