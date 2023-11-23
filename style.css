@@ -9,6 +9,7 @@ body{
     width: 100vw;
     background-color: #000;
 }
+
 .card{
     position: absolute;
     top: 50%;
@@ -17,6 +18,7 @@ body{
     width: 350px;
     background: linear-gradient(135deg, #00feba , #5b548a);
     border-radius: 20px;  
+    box-shadow: 10px 10px 10px ;
 }
 @media screen and (max-width: 450px){
     .card{
@@ -30,8 +32,9 @@ body{
         width: 250px;
     }
 }
-.city{
+h2{
     text-align: center;
+    margin: 4px 0;
 }
 .search{
     display: flex;
